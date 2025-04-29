@@ -4,6 +4,8 @@
 
 Este repositorio contiene un conjunto de consultas MongoDB aplicadas sobre una colección de objetos `Restaurant` de la ciudad de Nueva York. El objetivo es practicar y demostrar habilidades en la construcción de consultas para bases de datos NoSQL.
 
+---
+
 🔽 **Enunciado**
 
 Tenemos una colección de objetos `Restaurant` en la ciudad de Nueva York y necesitamos realizar diferentes consultas. ¿Puedes ayudarnos?
@@ -71,15 +73,16 @@ Tenemos una colección de objetos `Restaurant` en la ciudad de Nueva York y nece
 
 1. Clona el repositorio:
 
-
-	git clone https://github.com/Jusep1983/S204_MongoDB_queries.git
+		git clone https://github.com/Jusep1983/S204_MongoDB_queries.git
 
 2. Descomprime el archivo restaurants.zip para obtener la base de datos.
 
 3. Importa la colección en MongoDB usando MongoDB Compass o terminal:
 
+		mongoimport --db nombre_de_tu_db --collection restaurants --file ruta_al_archivo.json --jsonArray
 
-	mongoimport --db nombre_de_tu_db --collection restaurants --file ruta_al_archivo.json --jsonArray
+---
+
 
 ▶️ **Ejecución**
 
