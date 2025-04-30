@@ -75,9 +75,7 @@ Tenemos una colección de objetos `Restaurant` en la ciudad de Nueva York y nece
 
 		git clone https://github.com/Jusep1983/S204_MongoDB_queries.git
 
-2. Descomprime el archivo restaurants.zip para obtener la base de datos.
-
-3. Importa la colección en MongoDB usando MongoDB Compass o terminal:
+2. Importa la colección restaurants.json en MongoDB usando MongoDB Compass o terminal:
 
 		mongoimport --db nombre_de_tu_db --collection restaurants --file ruta_al_archivo.json --jsonArray
 
